@@ -1,0 +1,67 @@
+Q1. What are the latest JDK versions ?
+A.  Java SE 17.0.4.1
+
+Q2. Why should we use Eclipse and the latest version of Eclipse ?
+A.  Developed using Java, the Eclipse platform can be used to develop rich client applications, integrated development environments and other tools. 
+
+Q3. Explain J2SE, J2ME, J2EE, JDK, JVM, JAR, JAVA C and JIT.
+A.
+1) J2ME - Java Platform, Micro Edition or Java ME is a computing platform for development and deployment of portable code for embedded and mobile devices. Java ME was formerly known as Java 2 Platform, Micro Edition or J2ME.
+2) J2SE - Java Standard Edition also known as Core Java, this is the most basic and standard version of Java. It's the purest form of Java, a basic foundation for all other editions. It consists of a wide variety of general purpose API's (like java.lang, java.util) as well as many special purpose APIs.
+3) J2EE - Jakarta EE, formerly Java Platform, Enterprise Edition and Java 2 Platform, Enterprise Edition, is a set of specifications, extending Java SE with specifications for enterprise features such as distributed computing and web services.
+4) JDK - The Java Development Kit is a distribution of Java Technology by Oracle Corporation. It implements the Java Language Specification and the Java Virtual Machine Specification and provides the Standard Edition of the Java Application Programming Interface.
+5) JVM - A Java virtual machine is a virtual machine that enables a computer to run Java programs as well as programs written in other languages that are also compiled to Java bytecode. The JVM is detailed by a specification that formally describes what is required in a JVM implementation.
+6) JAR - A JAR file is a package file format typically used to aggregate many Java class files and associated metadata and resources into one file for distribution. JAR files are archive files that include a Java-specific manifest file. They are built on the ZIP format and typically have a .jar file extension.
+7) JAVA C - The javac tool reads class and interface definitions, written in the Java programming language, and compiles them into bytecode class files.
+8) JIT - JIT is a part of the JVM that optimizes the performance of the application. JIT stands for Java-In-Time Compiler. The JIT compilation is also known as dynamic compilation. In this section, we will learn what is JIT in Java, its working, and the phases of the JIT compiler.
+
+Q4. Explain JVM in detail.
+A. Java Virtual Machine or JVM is a specification that provides runtime environment in which java bytecode is executed. Code loading, Code verification, Code Execution and Providing runtime environment are the operations performed by JVM.
+
+Q5. What does public static void() mean ?
+A. public static void are the keywords used in java program and each of the word has its own meaning. Public defines the access modifier of the function, Static shows that the function wont change, void means the funtion is not returning any value and the () shows that its a function.
+
+Q6. Why are file names and class names the same ?
+A. The main reason for the class and file name to be same are to make the job of the complier easy to check which class it needs to run, in the whole list of the Java classes. So it's a good practice to have filename and class name as same. 
+
+Q17. Control statements in Java.
+A. 3 types of control statements
+    1) Decision making
+        - if 
+        - switch 
+    2) Loop statements
+        - do while
+        - while
+        - for
+        - for-each
+    3) Jump statements
+        - break
+        - continue
+
+Q18. Explain different types of user-defined data types in Java.
+A. User defined data type in java can be developed by using features of classes and interface.
+    example - Student s = new  Student();
+    Here, a variable named s is created with Student as the data type. Student is user defined class.
+
+Q19. What is binary operators ?
+A. 
+
+Q20. Why does an array start at 0 and not 1?
+A. In array, the index tells the distance from the starting element. So, the first element is at 0 distance from the starting element. So, that's why array start from 0.
+
+Q21. In between the while loop and for loop which one is better and why?
+A. In general, you should use a for loop when you know how many times the loop should run. If you want the loop to break based on a condition other than the number of times it runs, you should use a while loop.
+
+Q26. Why is the class name and constructor name same in java ?
+A. Every class object is created using the same new keyword, so it must have information about the class to which it must create an object. For this reason, the constructor name should be the same as the class name.
+
+Q27. Why can't we have return value from a constructor ?
+A. So the reason the constructor doesn't return a value is because it's not called directly by your code, it's called by the memory allocation and object initialization code in the runtime. Its return value (if it actually has one when compiled down to machine code) is opaque to the user - therefore, you can't specify it.
+
+Q28. Explain void constructor.
+A. Using void in the constructor by definition leads it to not longer be the constructor. The constructor specifically has no return type. While void doesn't return a value in the strictest sense of the word, it is still considered a return type.
+
+Q29. Explain constructor chaining in java.
+A. Constructor chaining is the process of calling one constructor from another constructor with respect to current object.
+
+Q30.    
