@@ -1,0 +1,2 @@
+This is Java Demo.
+Copy this Demo txtFile to other txtFile.
